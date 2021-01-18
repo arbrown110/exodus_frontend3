@@ -22,24 +22,18 @@ const NavBar = () => {
             </NavLink>
             
             <NavLink
-                to="/adventures" exact style={links} activeStyle={{
+                to="/new" exact style={links} activeStyle={{
                     background: 'darkblue'
              }}
-            >
-                What I've done so far
-            </NavLink>
-            <NavLink
-                to="/adventure/new" exact style={links} activeStyle={{
-                    background: 'darkblue'
-                }}
             >
                 Add new Topic
             </NavLink>
             <NavLink
-                to="/adventure/:id" exact style={links} activeStyle={{
-                    backgorund: 'darkblue'
-                }}>
-                Current
+                to="/adventures" exact style={links} activeStyle={{
+                    background: 'darkblue'
+                }}
+            >
+                What I've done so far
             </NavLink>
                 
             <NavLink

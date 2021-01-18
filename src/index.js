@@ -7,9 +7,9 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { BrowserRouter as Router } from 'react-router-dom'
 import App from './App'
 import { combineReducers } from 'redux';
-import adventureReducer from './reducers/adventureReducer';
+import adventuresReducer from './reducers/adventuresReducer';
 
-const rootReducer = combineReducers({advenutres: adventureReducer})
+const rootReducer = combineReducers({advenutres: adventuresReducer})
 
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)))
 

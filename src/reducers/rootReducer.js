@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux'
-import adventureReducer from '../reducers/adventureReducer'
+import adventuresReducer from '../reducers/adventuresReducer'
 
 
 const rootReducer = combineReducers({
-    adventureReducer
+    adventuresReducer
 })
 
 export default rootReducer;
